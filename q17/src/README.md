@@ -1,14 +1,6 @@
 - MySQL Database: Ensure that you have MySQL installed and running.
 - MySQL Connector: Make sure to include the MySQL JDBC driver in your project. If you're using Maven, add the following dependency to your pom.xml:
 
-```xml
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.32</version> <!-- Check for the latest version -->
-</dependency>
-```
-
 - Create the Database and Table: Before running the program, create a database and a student table in MySQL:
 
 ```sql
